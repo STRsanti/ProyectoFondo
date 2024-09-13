@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import { FaAngleDown } from "react-icons/fa";
-import { Noticias } from './paginas/contacto.jsx';
+import { Noticias } from './paginas/eventos.jsx';
 
 function Home() {
   return (
@@ -22,17 +22,18 @@ function Home() {
 }
 
 function App() {
+
   return (
+ 
+
     <Router>
       <div className="outer-container">
         <div className="background-container">
           <header className="header">
             <div className="logo">Fondos.com</div>
             <nav className="nav">
-              <Link className="navItem" to="/"> Home
-              </Link>
-              <Link className="navItem" to="/noticias">Noticias
-              </Link>
+              <Link className="navItem" to="/"> Home</Link>
+              <Link className="navItem" to="/noticias">Noticias</Link>
               <Link className="navItem" to="/corporativo">Corporativo
               </Link>
               <Link className="navItem" to="/contacto">

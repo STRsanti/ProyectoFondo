@@ -1,5 +1,6 @@
 import { Calendar, dayjsLocalizer } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
+import '../stylesheets/componentes.css';
 import dayjs from 'dayjs';
 
 export function Calendario() {
@@ -12,9 +13,14 @@ export function Calendario() {
       title: "Evento de integración a nuestros clientes"
     },
     {
+      start: dayjs('2024-9-18T15:30:00').toDate(),
+      end: dayjs('2024-9-18T22:30:00').toDate(),
+      title: "Concierto"
+    },
+    {
       start: dayjs('2024-9-19T09:00:00').toDate(),
       end: dayjs('2024-9-19T11:00:00').toDate(),
-      title: "Reunión interna del equipo"
+      title: "Reunión del equipo"
     }
   ];
 
@@ -96,18 +102,7 @@ export function Calendario() {
   };
 
   return (
-    <div
-      style={{
-        height: '530px',
-        width: '55%',
-        marginTop: '10%',
-        marginLeft: '22.5%',
-        marginRight: '4%',
-        backgroundColor: 'white',
-        borderRadius: '15px',
-        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)' // sombra para un estilo más elegante
-      }}
-    >
+    <div className='Calendario' >
       <Calendar
         localizer={localizer}
         events={myEventsList}
