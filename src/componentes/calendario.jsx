@@ -1,6 +1,7 @@
 import { Calendar, dayjsLocalizer } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import '../stylesheets/componentes.css';
+import '../App.css';
 import dayjs from 'dayjs';
 
 export function Calendario() {
