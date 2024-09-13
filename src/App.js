@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import { FaAngleDown } from "react-icons/fa";
-import { Noticias } from './paginas/eventos.jsx';
+import { Noticias } from './paginas/eventos';
+import ContactForm from './paginas/formcontact'
 
 function Home() {
   return (
@@ -24,8 +25,6 @@ function Home() {
 function App() {
 
   return (
- 
-
     <Router>
       <div className="outer-container">
         <div className="background-container">
@@ -57,6 +56,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/noticias" element = {<Noticias/>}/>
+              <Route path="/control-social" element = {<ContactForm/>}/>
             </Routes>
           </main>
         </div>
