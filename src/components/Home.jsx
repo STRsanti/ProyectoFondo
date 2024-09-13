@@ -1,6 +1,6 @@
 // src/components/Home.jsx
 import React from 'react';
-import './Home.css';
+import '../stylesheets/Home.css';
 const Home = () => {
   return (
     <section className="hero">

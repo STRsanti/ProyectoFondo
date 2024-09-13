@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleDown } from "react-icons/fa";
-import './Header.css';
+import '../stylesheets/Header.css';
 
 const Header = () => {
   return (

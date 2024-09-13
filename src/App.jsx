@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
+import Eventos from './paginas/eventos';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/contacto" element={<Eventos />} />
               {/* Aquí puedes agregar más rutas en el futuro */}
             </Routes>
           </main>
