@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
 }
+
+
 
 
 body, html {
@@ -189,3 +194,30 @@ body, html {
   background-color: rgba(255, 255, 255, 0); 
   text-align: center;
 }
+
+.Carrusel{
+  width: 55%;
+  height: 550px;
+  margin-top: 9%;
+  margin-left: -7%;
+  flex: 1; /* Ambos ocupan igual espacio */
+  margin: 10px; /* Espacio entre ellos */
+  min-width: 300px; 
+}
+
+.imgcarrousel{
+  width: 65%;
+  height: 550px;
+}
+
+.Calendario{
+  width: 40%;
+  height: 40%;
+  margin-top: 9%;
+  flex: 1; 
+  margin: 5px; 
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+
