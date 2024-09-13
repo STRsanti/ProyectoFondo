@@ -101,7 +101,7 @@ export function Calendario() {
         height: '530px',
         width: '55%',
         marginTop: '10%',
-        marginLeft: '-4.5%',
+        marginLeft: '22.5%',
         marginRight: '4%',
         backgroundColor: 'white',
         borderRadius: '15px',
