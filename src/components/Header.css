@@ -1,0 +1,95 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+  
+  .navItem {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.7em;
+    padding: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navItem:not(:last-child) {
+    border-right: 1px solid white;
+    margin-right: 10px;
+  }
+  
+  .navItem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .navButtons {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+  .btn {
+    padding: 6px 15px; 
+    font-size: 0.8em;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+  }
+  
+  
+  .get-started-btn {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+    border-color: white; /* Borde blanco al hacer hover */
+  box-shadow: 0 0 5px white; 
+  }
+  
+  .icon {
+    margin-right: 10px;
+    margin-left: 0px;
+    vertical-align: middle;
+    font-size: 10px;
+  }
+  
