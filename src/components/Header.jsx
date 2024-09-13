@@ -10,7 +10,7 @@ const Header = () => {
       <div className="logo">Fondos.com</div>
       <nav className="nav">
         <Link className="navItem" to="/"> Home </Link>
-        <Link className="navItem" to="/contacto">Contacto</Link>
+        <Link className="navItem" to="/contacto">Noticias</Link>
         <Link className="navItem" to="/Corporativo">Corporativo</Link>
         <Link className="navItem" to="/contacto">
           <FaAngleDown className="icon" /> Documentos
@@ -18,7 +18,7 @@ const Header = () => {
         <Link className="navItem" to="/contacto">
           <FaAngleDown className="icon" /> Servicios
         </Link>
-        <Link className="navItem" to="/contacto">Control Social</Link>
+        <Link className="navItem" to="/control-social">Control Social</Link>
         <Link className="navItem" to="/contacto">
           <FaAngleDown className="icon" /> Emprendedores
         </Link>

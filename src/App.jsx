@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Eventos from './paginas/eventos';
+import ContactForm from './paginas/formcontact';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contacto" element={<Eventos />} />
+              <Route path="/control-social" element={<ContactForm />} />
               {/* Aquí puedes agregar más rutas en el futuro */}
             </Routes>
           </main>
