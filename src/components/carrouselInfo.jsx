@@ -9,7 +9,6 @@ function Carrousel() {
   return (
     <div className='Carrousel'>
     <Carousel
-      fade
       controls={false}
     >
       <Carousel.Item interval={8000}>
@@ -22,7 +21,7 @@ function Carrousel() {
             establezca contactos con colegas de la industria y conozca las últimas tendencias en la integración de clientes.</p>
         </div>
       </Carousel.Item>
-      <Carousel.Item interval={8000}>
+      <Carousel.Item interval={6000}>
         <div className='CarrouselIContent'>
           <h1>Concierto para Afiliados</h1>
           <br/>
@@ -32,7 +31,7 @@ function Carrousel() {
           ¡No se pierda esta oportunidad única de disfrutar de buena música y fortalecer sus lazos profesionales en un ambiente lleno de energía y camaradería!</p>
         </div>
       </Carousel.Item>
-      <Carousel.Item interval={8000}>
+      <Carousel.Item interval={6000}>
         <div className='CarrouselIContent'>
           <h1>Reunión interna de costos</h1>
           <br/>

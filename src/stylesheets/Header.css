@@ -3,8 +3,8 @@
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.);
-    color: white;
+    background-color: rgb(255, 255, 255, 0.6);
+    color: rgb(61, 92, 107);
     position: fixed;
     width: 100%;
     top: 0;
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: rgb(61, 92, 107);
     font-size: 0.7em;
     padding: 0 10px;
     transition: background-color 0.3s ease;
@@ -45,7 +45,7 @@
   }
   
   .navItem:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(61, 92, 107);
     color: white;
   }
   
@@ -60,7 +60,7 @@
   .btn {
     padding: 6px 15px; 
     font-size: 0.8em;
-    color: white;
+    color: rgb(61, 92, 107);
     background-color: transparent;
     border: 1px solid white;
     border-radius: 10px;
@@ -83,7 +83,7 @@
   
   
   .btn:hover {
-    background-color: white;
+    background-color: rgb(61, 92, 107);
     color: black;
     border-color: white; /* Borde blanco al hacer hover */
    box-shadow: 0 0 5px white; 

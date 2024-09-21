@@ -10,7 +10,7 @@ Sección Servicios Tu sitio web tendrá todos los servicios que cuenta el fondo 
 
 Estado de cuenta Tipos de Ahorro Líneas de Crédito Convenios PQRS
 
-Calendario de actividades Lo programamos con un blog de noticias y eventos donde los afiliados puedan conocer y asistir a los mismos.
+Calendario de actividades Lo programamos con un blog de noticias y eventos donde los afiliados puedan conocer y asistir a los mismos. (check)
 
 Usuarios: Administrador afiliados
 

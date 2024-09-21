@@ -1,41 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
 .CarrouselIContent {
-    color: rgba(0, 28, 73, 0.69);
-    text-align: justify;
-    height: 450px;
+    color: rgb(61, 92, 107);
+    text-align: left;
+    height: 530px;
     width: 100%;
     padding: 7%;
-    background-color: rgba(255, 255, 255, 0.5); /* Blanco con 30% opacidad */
+    background-color: rgb(116,154,179, 0.5); /* Blanco con 30% opacidad */
     border-radius: 25px;
 }
 
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    font-style: oblique;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
 }
 
 .Calendario{
     height: 530px;
     width: 45%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5%;
     margin-right: 4%;
     margin-bottom: 4.5%;
-    background-color: white;
+    background-color: rgb(188,193,196, 0.5);
     border-radius: 15px;
+    color: black;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .Carrousel{
     margin-left: 3%;
-    margin-top: 12%;
+    margin-top: 5%;
     height: 450px;
-    width: 45%;
+    width: 37%;
 }
 
 @media (max-width: 768px){

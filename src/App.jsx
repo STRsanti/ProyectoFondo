@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Eventos from './paginas/eventos';
 import ContactForm from './paginas/formcontact';
 import Login from './paginas/login';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -30,10 +31,6 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Routes>
         </div>
-      </div>
-
-      <div className='Content1'>
-
       </div>
     </Router>
   );

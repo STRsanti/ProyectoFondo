@@ -2,6 +2,7 @@
 import { Link } from 'react-router-dom';
 import { FaAngleDown } from "react-icons/fa";
 import '../stylesheets/Header.css';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 const Header = () => {
   return (
@@ -9,17 +10,20 @@ const Header = () => {
       <div className="logo">Fondos.com</div>
       <nav className="nav">
         <Link className="navItem" to="/"> Home </Link>
-        <Link className="navItem" to="/contacto">Noticias</Link>
-        <Link className="navItem" to="/Corporativo">Corporativo</Link>
-        <Link className="navItem" to="/contacto">
-          <FaAngleDown className="icon" /> Documentos
-        </Link>
-        <Link className="navItem" to="/contacto">
-          <FaAngleDown className="icon" /> Servicios
-        </Link>
-        <Link className="navItem" to="/control-social">Control Social</Link>
-        <Link className="navItem" to="/contacto">
-          <FaAngleDown className="icon" /> Emprendedores
+        <Link className="navItem" to="/contacto">Contacto</Link>
+        <Link className="navItem" to="/servicioa">Servicios 
+        
+        <Dropdown>
+          <Dropdown.Toggle variant="success" id="dropdown-basic">
+            Dropdown Button
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         </Link>
         <div className="navButtons">
         <Link to="/login">
