@@ -23,9 +23,13 @@ const Header = () => {
           <FaAngleDown className="icon" /> Emprendedores
         </Link>
         <div className="navButtons">
-          <button className="btn login-btn">Log In</button>
-          <button className="btn get-started-btn">Get Started</button>
-        </div>
+      <Link to="/login">
+        <button className="login-btn" id="btn">Log In</button>
+      </Link>
+      <Link to="/get-started">
+        <button className="get-started-btn" id="btn">Get Started</button>
+      </Link>
+    </div>
       </nav>
     </header>
   );
