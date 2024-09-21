@@ -22,7 +22,9 @@ const Header = () => {
           <FaAngleDown className="icon" /> Emprendedores
         </Link>
         <div className="navButtons">
+        <Link to="/login">
           <button className="btn login-btn">Log In</button>
+          </Link>
           <button className="btn get-started-btn">Get Started</button>
         </div>
       </nav>

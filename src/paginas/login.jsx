@@ -1,7 +1,7 @@
 
 import React from 'react';
-import '../stylesheets/login.css'; // Importar el CSS
-import { FaEnvelope, FaLock } from 'react-icons/fa'; // Ejemplo de iconos
+import '../stylesheets/login.css'; 
+import { FaEnvelope, FaLock } from 'react-icons/fa'; 
 
 const Login = () => {
   return (
