@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.);
     color: white;
     position: fixed;
     width: 100%;
@@ -68,22 +68,25 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-  .login-btn {
-    background-color: transparent;
-  }
-  
-  
-  .get-started-btn {
+  #login-btn {
     background-color: transparent;
     color: #df1717;
   }
+  
+  
+  #get-started-btn {
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+
   
   
   .btn:hover {
     background-color: white;
     color: black;
     border-color: white; /* Borde blanco al hacer hover */
-  box-shadow: 0 0 5px white; 
+   box-shadow: 0 0 5px white; 
   }
   
   .icon {

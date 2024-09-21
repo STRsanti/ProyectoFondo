@@ -1,5 +1,4 @@
 // src/components/Header.jsx
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleDown } from "react-icons/fa";
 import '../stylesheets/Header.css';
@@ -23,13 +22,9 @@ const Header = () => {
           <FaAngleDown className="icon" /> Emprendedores
         </Link>
         <div className="navButtons">
-      <Link to="/login">
-        <button className="login-btn" id="btn">Log In</button>
-      </Link>
-      <Link to="/get-started">
-        <button className="get-started-btn" id="btn">Get Started</button>
-      </Link>
-    </div>
+          <button className="btn login-btn">Log In</button>
+          <button className="btn get-started-btn">Get Started</button>
+        </div>
       </nav>
     </header>
   );
